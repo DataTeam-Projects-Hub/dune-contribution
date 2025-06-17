@@ -1,4 +1,4 @@
-# 🧠 Dune Contribution Repository
+# Dune Contribution Repository
 
 Welcome to the `dune-contribution` repository!  
 This repo is dedicated to all internal work related to Dune dashboard development, SQL exploration, and data analysis.
