@@ -42,7 +42,6 @@ This repository is used to:
 ## 👥 Collaboration Notes
 
 - Keep query logic documented in `.md` files where needed.
-- Add visuals or dashboard screenshots in the `visuals/` folder.
 - Always commit with meaningful messages.
 - Communicate blockers or suggestions in the linked GitHub Issue.
 
