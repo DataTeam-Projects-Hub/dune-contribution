@@ -1,0 +1,63 @@
+Section,Item,Metric,_2025_Q2,_2025_Q1,_2024_Q4,_2024_Q3,_2024_Q2,_2024_Q1,_2023_Q4,_2023_Q3,_2023_Q2,_2023_Q1
+1. Revenue,A. Transaction Fees,L1 Base Fee,$181.56k,$851.30k,$1.61m,$309.53k,$722.66k,$20.19m,$15.09m,$6.10m,$16.65m,$1.82m
+,,L1 Surplus Fee,0,0,0,0,0,$1.85m,$1.42m,$1.09m,$1.61m,$296.81k
+,,L2 Base Fee,$803.20k,$864.62k,$1.15m,$951.14k,$1.17m,$4.61m,$2.88m,$2.36m,$3.50m,$651.30k
+,,L2 Surplus Fee,$1.87m,$3.63m,$2.91m,$2.42m,$5.49m,$771.44k,$445.78k,$210.27k,$1.58m,$1.61m
+,A. Transaction Fees total,,$2.86m,$5.34m,$5.67m,$3.68m,$7.39m,$27.41m,$19.83m,$9.75m,$23.34m,$4.38m
+,B. Timeboost,Timeboost,$1.92m,,,,,,,,,
+,B. Timeboost total,,$1.92m,,,,,,,,,
+,C. Arbitrum Expansion Program,Orbit Licensing Fees,,$41.49k,$37.90k,,,,,,,
+,C. Arbitrum Expansion Program total,,,$41.49k,$37.90k,,,,,,,
+1. Revenue total,,,$4.78m,$5.38m,$5.71m,$3.68m,$7.39m,$27.41m,$19.83m,$9.75m,$23.34m,$4.38m
+2. Cost of Revenue,A. Sequencer Cost,Blob,-$56.63k,-$481.32k,-$670.39k,0$.00,-$138.29k,-$112.76k,,,,
+,,Call Data,-$95.98k,-$311.07k,-$736.36k,-$279.66k,-$475.72k,-$20.00m,-$14.92m,-$6.70m,-$18.61m,-$2.18m
+,,Sequencer Buffer,-$24.72k,-$58.90k,-$202.89k,-$29.87k,-$108.66k,-$44.58k,,,,
+,A. Sequencer Cost total,,-$177.33k,-$851.30k,-$1.61m,-$309.53k,-$722.66k,-$20.16m,-$14.92m,-$6.70m,-$18.61m,-$2.18m
+,B. Arbitrum Developer Guild,Arbitrum Developer Guild,-$54.41k,-$8.30k,-$7.58k,0,0,0,0,0,0,0
+,B. Arbitrum Developer Guild total,,-$54.41k,-$8.30k,-$7.58k,0,0,0,0,0,0,0
+2. Cost of Revenue total,,,-$231.74k,-$859.59k,-$1.62m,-$309.53k,-$722.66k,-$20.16m,-$14.92m,-$6.70m,-$18.61m,-$2.18m
+3. Gross Profit,A. Total Revenue,,$4.78m,$5.38m,$5.71m,$3.68m,$7.39m,$27.41m,$19.83m,$9.75m,$23.34m,$4.38m
+,A. Total Revenue total,,$4.78m,$5.38m,$5.71m,$3.68m,$7.39m,$27.41m,$19.83m,$9.75m,$23.34m,$4.38m
+,B. Cost of Revenue,,-$231.74k,-$859.59k,-$1.62m,-$309.53k,-$722.66k,-$20.16m,-$14.92m,-$6.70m,-$18.61m,-$2.18m
+,B. Cost of Revenue total,,-$231.74k,-$859.59k,-$1.62m,-$309.53k,-$722.66k,-$20.16m,-$14.92m,-$6.70m,-$18.61m,-$2.18m
+3. Gross Profit total,,,$4.54m,$4.52m,$4.09m,$3.37m,$6.66m,$7.25m,$4.91m,$3.05m,$4.73m,$2.20m
+4. Operating Expenses,A. DAO Operations,DAO Development Services,-$2.97m,-$1.03m,-$599.24k,-$463.46k,-$1.20m,-$48.65k,,,,
+,,DAO Expansion Programs,-$281.01k,-$808.71k,-$226.18k,-$376.47k,-$340.30k,-$40.18k,,,,
+,A. DAO Operations total,,-$3.26m,-$1.84m,-$825.42k,-$839.94k,-$1.54m,-$88.83k,,,,
+,B. Incentives,One-Off Programs,,,,,-$269.00k,,,,,
+,,Structured Programs,-$13.00k,,-$87.22k,-$28.28m,-$10.07m,-$75.37m,-$29.01m,,,
+,B. Incentives total,,-$13.00k,,-$87.22k,-$28.28m,-$10.34m,-$75.37m,-$29.01m,,,
+,C. Financial Management,Finance Functions,-$93.04k,-$79.40k,-$82.91k,-$13.17k,,,,,,
+,C. Financial Management total,,-$93.04k,-$79.40k,-$82.91k,-$13.17k,,,,,,
+,D. Grants,Event Sponsorships,-$19.36k,-$436.63k,-$76.78k,,-$424.65k,,,,,
+,,Retroactive Allocations,,,,,-$142.28k,,,,,
+,,Structured Programs,-$2.00m,-$2.47m,-$1.14m,-$3.02m,-$778.91k,-$2.81m,-$844.71k,-$135.26k,,
+,,Technology Development,,,-$3.77k,-$200.13k,-$160.79k,,-$111.21k,,,
+,D. Grants total,,-$2.02m,-$2.91m,-$1.22m,-$3.22m,-$1.51m,-$2.81m,-$955.92k,-$135.26k,,
+,E. Strategic Partnerships,Structured Programs,-$7.65m,,,,,,,,,
+,E. Strategic Partnerships total,,-$7.65m,,,,,,,,,
+4. Operating Expenses total,,,-$13.04m,-$4.83m,-$2.22m,-$32.35m,-$13.38m,-$78.26m,-$29.96m,-$135.26k,,
+5. Operating Profit,A. Gross Profit,,$4.54m,$4.52m,$4.09m,$3.37m,$6.66m,$7.25m,$4.91m,$3.05m,$4.73m,$2.20m
+,A. Gross Profit total,,$4.54m,$4.52m,$4.09m,$3.37m,$6.66m,$7.25m,$4.91m,$3.05m,$4.73m,$2.20m
+,B. Total Operating Expenses,,-$13.04m,-$4.83m,-$2.22m,-$32.35m,-$13.38m,-$78.26m,-$29.96m,-$135.26k,,
+,B. Total Operating Expenses total,,-$13.04m,-$4.83m,-$2.22m,-$32.35m,-$13.38m,-$78.26m,-$29.96m,-$135.26k,,
+5. Operating Profit total,,,-$8.49m,-$303.05k,$1.87m,-$28.98m,-$6.72m,-$71.01m,-$25.05m,$2.92m,$4.73m,$2.20m
+6. Non-Operating Income,A. Financial Management,Treasury Management,$284.53k,$341.03k,$205.40k,,,,,,,
+,A. Financial Management total,,$284.53k,$341.03k,$205.40k,,,,,,,
+6. Non-Operating Income total,,,$284.53k,$341.03k,$205.40k,,,,,,,
+7. Non-Operating Expenses,A. DAO Operations,Consulting Services,,,,-$92.14k,-$57.56k,,,,,
+,A. DAO Operations total,,,,,-$92.14k,-$57.56k,,,,,
+,B. Investments,Ventures,-$79.54k,-$1.22m,-$5.09m,-$834.39k,,,,,,
+,B. Investments total,,-$79.54k,-$1.22m,-$5.09m,-$834.39k,,,,,,
+,C. Grants,Retroactive Allocations,-$62.36k,,-$158.44k,-$166.66k,,,,,,
+,C. Grants total,,-$62.36k,,-$158.44k,-$166.66k,,,,,,
+,D. Financial Management,Treasury Management,,,,,-$331.40k,,,,,
+,D. Financial Management total,,,,,,-$331.40k,,,,,
+7. Non-Operating Expenses total,,,-$141.91k,-$1.22m,-$5.25m,-$1.09m,-$388.96k,,,,,
+8. Net Income,A. Total Operating Profit,,-$8.49m,-$303.05k,$1.87m,-$28.98m,-$6.72m,-$71.01m,-$25.05m,$2.92m,$4.73m,$2.20m
+,A. Total Operating Profit total,,-$8.49m,-$303.05k,$1.87m,-$28.98m,-$6.72m,-$71.01m,-$25.05m,$2.92m,$4.73m,$2.20m
+,B. Net Non-Operating Income,,$142.62k,-$878.58k,-$5.04m,-$1.09m,-$388.96k,,,,,
+,B. Net Non-Operating Income total,,$142.62k,-$878.58k,-$5.04m,-$1.09m,-$388.96k,,,,,
+,C. Expenses Reversal Adjustment,,,$249.57k,$78.39k,$440.28k,$64.08k,,$1.09m,,,
+,C. Expenses Reversal Adjustment total,,,$249.57k,$78.39k,$440.28k,$64.08k,,$1.09m,,,
+8. Net Income total,,,-$8.35m,-$932.06k,-$3.09m,-$29.63m,-$7.04m,-$71.01m,-$23.97m,$2.92m,$4.73m,$2.20m
