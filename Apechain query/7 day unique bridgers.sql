@@ -14,7 +14,7 @@ WITH initiators AS (
     "from" = 0x0000000000000000000000000000000000000000
 ), combined AS (
   SELECT
-    date,
+    date,   
     wallet,
     'initiator' AS source
   FROM initiators
