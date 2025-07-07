@@ -1,3 +1,4 @@
+-- https://dune.com/queries/5420599/8850677
 SELECT
   DATE_TRUNC('day', evt_block_time) AS date,
   COUNT(*) AS total_transactions,

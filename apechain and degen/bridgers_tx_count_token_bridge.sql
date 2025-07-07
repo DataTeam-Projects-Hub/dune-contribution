@@ -1,3 +1,4 @@
+-- https://dune.com/queries/5420758/8850836
 WITH selected_chains AS (
   SELECT chain
   FROM unnest(split('{{chain_list}}', ',')) AS t(chain)
