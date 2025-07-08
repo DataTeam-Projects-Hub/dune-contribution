@@ -1,4 +1,4 @@
--- https://dune.com/queries/5420758/8850836
+-- https://dune.com/queries/5401672/8862306
 WITH selected_chains AS (
   SELECT chain
   FROM unnest(split('{{chain_list}}', ',')) AS t(chain)
@@ -9,7 +9,8 @@ all_transfers AS (
     'apechain' AS chain,
     evt_block_time,
     "from",
-    value
+    value,
+    'Apecoin' AS token_name
   FROM erc20_arbitrum.evt_transfer
   WHERE
     "to" = 0x1b98e4ed82ee1a91a65a38c690e2266364064d15
@@ -21,7 +22,13 @@ all_transfers AS (
     'degen' AS chain,
     evt_block_time,
     "from",
-    value
+    value,
+    CASE contract_address
+      WHEN 0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed THEN 'DEGEN'
+      WHEN 0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA THEN 'USDC'
+      WHEN 0x4200000000000000000000000000000000000006 THEN 'WETH'
+      ELSE 'Unknown'
+    END AS token_name
   FROM erc20_base.evt_transfer
   WHERE
     "to" IN (
@@ -30,18 +37,18 @@ all_transfers AS (
       0x4200000000000000000000000000000000000006
     )
     AND contract_address IN (
-      0x4ed4E862860beD51a9570b96d89aF5E1B0c42FFA531710b6CA,
-      0x4200000000000000000000000000000000000006
+      0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed,  -- DEGEN
+      0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA,  -- USDC
+      0x4200000000000000000000000000000000000006   -- WETH
     )
 )
 
 SELECT
   t.chain,
+  t.token_name,
   DATE_TRUNC('day', t.evt_block_time) AS date,
-  COUNT(*) AS transaction_count,
-  COUNT(DISTINCT t."from") AS unique_bridgers,
   SUM(t.value) / 1e18 AS total_tokens_bridged
 FROM all_transfers t
 JOIN selected_chains sc ON t.chain = sc.chain
-GROUP BY t.chain, DATE_TRUNC('day', t.evt_block_time)
-ORDER BY t.chain, DATE_TRUNC('day', t.evt_block_time);
+GROUP BY t.chain, t.token_name, DATE_TRUNC('day', t.evt_block_time)
+ORDER BY t.chain, t.token_name, DATE_TRUNC('day', t.evt_block_time);
